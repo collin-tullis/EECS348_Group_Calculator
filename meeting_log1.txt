@@ -1,0 +1,21 @@
+Team Meeting 9.18
+WHEN: Wednesday, September 18th @ 6:00pm
+PURPOSE: First team meeting, set up
+ATTENDANCE: (every team member) Adira Mongar, Collin Tullis, Ethan Gao, Gavin Billinger, Matthew Eagleman, Lydia Peng
+
+Collin created a GitHub repository and invited everybody to be a collaborator. We then decided on roles and team name.
+
+TEAM NAME IDEAS:
+Scrum Blasters
+
+ROLES:
+Project Manager: Gavin Billinger
+Scrum Master: Lydia Peng
+Technical Lead: Ethan Gao
+Quality Assurance: Adira Mongar
+UI/UX Designer: Matthew Eagleman
+Configuration (Version Control) Manger: Collin Tullis
+
+We continued to set up GitHub and understand the repository mechanics. We then proceed to flesh out our Project Plan document.
+Ethan had to leave for a staff meeting. We split the remaining Project Plan sections, set up a way to video chat in the future, and adjourned for the day.
+
