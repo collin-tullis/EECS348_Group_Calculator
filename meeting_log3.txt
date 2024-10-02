@@ -1,0 +1,16 @@
+Team Meeting 10.2
+WHEN: Wednesday, October 2nd @ 6:00 pm
+PURPOSE: Third team meeting, requirements doc prep/planning
+ATTENDANCE: (virtually) Gavin Billinger, Matthew Eagleman, Lydia Peng, Ethan Gao, Adira Mongar
+
+Collin was absent, but it was a short meeting regardless. Matthew shared the SRS document for us all to work on. We allocated parts of the plan to each group member roughly as follows:
+
+Gavin - Section 1-1.2
+Lydia - Section 1.3-1.5
+Matthew - Section 2-2.1.3
+Adira - Section 2.2-2.5
+Ethan - Section 3
+Collin - Section 4 (maybe assist with Section 3 as well)
+
+Sections can be subject to switch around later, but for the most part, each member focuses these areas. Section 5 can be easily finalized at a later date.
+
