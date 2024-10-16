@@ -1,0 +1,8 @@
+Team Meeting 10.16
+WHEN: Wednesday, October 16th @ 6:00 pm
+PURPOSE: Fourth team meeting, finalizing SRS document
+ATTENDANCE: (virtually) Gavin Billinger, Collin Tullis, Adira Mongar, Matthew Eagleman, Ethan Gao
+
+Lydia was absent from today’s meeting. We be more clear about the time of the meeting in the future.
+We discussed the final parts of the SRS document and re-examined the workload.
+We were able to complete the final draft of the SRS document and got it ready to turn in.
