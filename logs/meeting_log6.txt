@@ -1,0 +1,16 @@
+Team Meeting 10.23
+WHEN: Wednesday, October 23rd @ 6:00 pm
+PURPOSE: Fifth team meeting, Software Architecture planning.
+ATTENDANCE: (virtually) Gavin Billinger, Lydia Peng, Collin Tullis, Ethan Gao
+
+Matthew and Adira had conflicts that arose. We were informed of their absence ahead of time and they will be filled in later.
+
+This week we split up the sections of the Software Architecture Document as follows:
+
+
+Section 1 - Lydia/Collin
+Section 2/3/4 - Collin/Gavin/Ethan
+Section 5 - Matthew
+Section 6 - Adira
+
+After that we split up for the week.
