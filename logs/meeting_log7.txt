@@ -1,0 +1,10 @@
+Team Meeting 11.6
+WHEN: Wednesday, November 6th @ 6:00 pm
+PURPOSE: Sixth team meeting, finalizing Software Architecture document.
+ATTENDANCE: (virtually) Gavin Billinger, Collin Tullis, Adira Mongar, Lydia Peng, Ethan Gao
+
+Matthew was absent, but he had his assigned section completed.
+We met up to discuss the final parts of the document that needed work. 
+Section 4 and 6 still needed work so we went and brushed up those sections. 
+We nearly finished the document, all that was left by the end of the meeting was some picture/model inserts. 
+Otherwise, Part 3 was essentially completed.
