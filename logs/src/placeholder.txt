@@ -1,3 +1,0 @@
-This folder is where all our source files will go to.
-We might also need a Makefile to link all our dependent files together.
-We'll see.
