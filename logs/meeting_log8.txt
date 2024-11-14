@@ -1,0 +1,16 @@
+Team Meeting 11.13
+WHEN: Wednesday, November 13th @ 6:00 pm
+PURPOSE: Seventh team meeting, starting implementation
+ATTENDANCE: (virtually) Gavin Billinger. Lydia Peng, Adira Mongar
+
+Collin, Ethan, and Matthew were absent from today’s meeting. Collin told us beforehand he wasn’t going to be able to make it.
+
+Today, we just went over implementation assignments. Each person was assigned a module and we’ll meet up once more before the deadline to ensure we have a prototype.
+
+The parts were assigned as follows (though they are subject to change):
+
+Lexer: Gavin
+Parser: Ethan/Collin
+Evaluator: Lydia
+Display/UI: Matthew
+Error Handler: Adira
