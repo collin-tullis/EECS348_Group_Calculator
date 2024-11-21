@@ -1,3 +1,0 @@
-This the folder where all our program will files.
-We might need a makefile too.
-We'll see.
