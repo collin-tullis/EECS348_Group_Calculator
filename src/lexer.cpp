@@ -112,7 +112,7 @@ int main(){
 
         // If the loop ever gets this far without breaking or iterating, that must mean the token is invalid.
         cout << "Invalid token in expression." << endl; // <<<<<<<<<<<<<<<<< RAISE AN ERROR!
-        return;
+        return 0;
     }
 
     // At the very end, after the for loop, we have to check if there was a number that never marked as "finished"
