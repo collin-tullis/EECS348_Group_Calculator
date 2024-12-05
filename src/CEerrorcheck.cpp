@@ -34,12 +34,11 @@ class ErrorHandler {
         for (int i = 0; i < s.size(); i++) 
         {
             string token = s[i];
-
+            string leftOfToken = s[i-1];
+            string rightOfToken = s[i+1];
 
             if(i > 0 && i < s.size()-1)
             {
-                string leftOfToken = s[i-1];
-                string rightOfToken = s[i+1];
                 if(token == "(" && isNumber(leftOfToken))
                 {
                     return false;
