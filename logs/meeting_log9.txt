@@ -1,0 +1,7 @@
+Team Meeting 12.04
+WHEN: Wednesday, December 4th @ 6:00 pm
+PURPOSE: Eighth team meeting, synching implementation
+ATTENDANCE: (virtually) Gavin Billinger, Lydia Peng, Adira Mongar, Collin Tullis, Ethan Gao, Matthew Eaglemen
+
+We got together to discuss what needs to be completed with implementation. We have a nearly working Lexer, Parser, Error Handler, and the remaining parts are almost finished. 
+Ethan and Collin have taken it upon themselves to get a working exe together and we’ll re-adjourn on Friday to see what we have then—maybe get to work on some test cases.
