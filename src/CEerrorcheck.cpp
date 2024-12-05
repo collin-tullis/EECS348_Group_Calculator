@@ -35,25 +35,11 @@ class ErrorHandler {
         {
             string token = s[i];
 
-
-            if(i > 0 && i < s.size()-1)
-            {
-                string leftOfToken = s[i-1];
-                string rightOfToken = s[i+1];
-                if(token == "(" && isNumber(leftOfToken))
-                {
-                    return false;
-                }
-                if(token == ")" && isNumber(rightOfToken))
-                {
-                    return false;
-                }
-            }
-            if (s[i] == "(") 
+            if (token == "(") 
             {
                 count++;
             }
-            else if(s[i] == ")")
+            else if(token == ")")
             {
                 count--;
             }
