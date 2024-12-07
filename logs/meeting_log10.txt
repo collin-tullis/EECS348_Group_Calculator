@@ -1,0 +1,10 @@
+Team Meeting 12.06
+WHEN: Wednesday, December 6th @ 6:00 pm
+PURPOSE: Ninth team meeting, finishing implementation?
+ATTENDANCE: (virtually) Gavin Billinger, Lydia Peng, Adira Mongar, Collin Tullis, Ethan Gao
+
+The team worked on conglomerating all our various program files into a workable software. 
+Once we got it together, we started testing numerous different test cases. 
+There were a few bugs we had to work out, but it helped with putting together our test case document.
+
+After a few hours of working, we nearly have a complete implementation, but there’s still work to be done. We’ll meet up end of the weekend.
