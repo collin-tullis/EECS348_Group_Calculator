@@ -6,6 +6,7 @@
 #include <stdexcept>
 #include <unordered_map>
 
+
 int orderOperations(const std::string &op){
     if (op == "+" || op == "-") return 1;
     if (op == "*" || op == "/") return 2;
@@ -30,7 +31,9 @@ double calculations(double a, double b, const std::string &op){
 std::vector<std::string> inFlixToPostflix(const std::vector<std::string> &tokens){
     std::vector<std::string> postfix;
     std::stack<std::string> operators;
-    for (const auto &token : tokens){
+    for (size_t i = 0; i <tokens.size(); ++i){
+        const auto &token = tokens[i];
+
         if (std::isdigit(token[0])){
             postfix.push_back(token);
         }else if (token == "("){
@@ -44,6 +47,9 @@ std::vector<std::string> inFlixToPostflix(const std::vector<std::string> &tokens
                 operators.pop();
             }
         } else if (isOperator(token)){
+            if (token == "-" && (i == 0 ||tokens[i-1] == "(")){
+                postfix.push_back("0");
+            }
             while (!operators.empty() && orderOperations(operators.top()) >= orderOperations(token)){
                 postfix.push_back(operators.top());
                 operators.pop();
@@ -77,5 +83,16 @@ double evaluatePostfix(const std::vector<std::string> &postfix){
 double evaluateExpression(const std::vector<std::string> &input){
     auto postfix = inFlixToPostflix(input);
     return evaluatePostfix(postfix);
+}
+
+int main(){
+    std::vector<std::string> input = {"(","-","(","1","-","2",")",")"};
+    try{
+        double result = evaluateExpression(input);
+        std::cout<<"Result: " <<result <<std::endl;
+    } catch (const std::runtime_error &e) {
+        std::cerr <<"Error: " <<e.what() <<std::endl;
+    }
+    return 0;
 }
 
