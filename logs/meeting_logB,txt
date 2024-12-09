@@ -1,0 +1,11 @@
+Team Meeting 12.08
+WHEN: Sunday, December 8th @ 4:00 pm
+PURPOSE: Tenth team meeting, more bug fixing
+ATTENDANCE: (virtually) Gavin Billinger, Adira Mongar, Collin Tullis, Ethan Gao, Lydia Peng
+
+We have met once again to test and fix all the bugs in our implementation. 
+There seemed to be trouble with the way parenthesis are parsed, but we were able to fix it.
+
+We went through our list of test cases, marking down any initial failures, and then we fixed all the problems that arose. 
+By the end of the meeting, we had a well-functioning program and most of the test document was complete. 
+We will meet up again the day before everything is due to go over all deliverables.
