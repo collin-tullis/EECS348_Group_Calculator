@@ -52,7 +52,7 @@ string GetInput(){
     //Get an expression from the user
     string calculation;
     cout << "> Your Expression: ";
-    cin >> calculation;
+    getline(cin, calculation);
     return calculation;
 }
 
@@ -101,6 +101,7 @@ int main(){
         cout << token << " ";
     }
     */
+    
 
    if(errorhandler.error(lex_result)){
         double result = evaluator.evaluateExpression(lex_result);

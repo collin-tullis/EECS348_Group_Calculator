@@ -54,13 +54,17 @@ class ErrorHandler {
                 string rightOfToken = s[i+1];
                 if(token == "(" && (isNumber(leftOfToken))) 
                 {
-                    cout << "Left token" << leftOfToken << "     Is number"  << isNumber(leftOfToken) << endl;
+                    //cout << "Left token" << leftOfToken << "     Is number"  << isNumber(leftOfToken) << endl;
                     return false;
                 }
                 if(token == ")" && isNumber(rightOfToken))
                 {
-                    cout << "right parn" << endl;
+                    //cout << "right parn" << endl;
                     return false;
+                }
+            
+                if(rightOfToken == ")" && token == "("){
+                    throw invalid_argument("Invalid Parentheses");
                 }
             }
             if (s[i] == "(") 
@@ -116,10 +120,12 @@ class ErrorHandler {
                                         throw invalid_argument("Invalid Operator Placement");
                                     }
                                 }
-                                else if(rightOfToken != "(")
+                                /*
+                                else if((rightOfToken != "(" || rightOfToken != ")"))
                                 {
-                                    throw invalid_argument("Invalid Operator Placement");
-                                }
+                                    cout << rightOfToken << endl;
+                                    throw invalid_argument("Invalid Operator Placement2");
+                                }*/
                             }
                             // divide by zero error
                             if (token =="/" && rightOfToken =="0")
@@ -131,18 +137,25 @@ class ErrorHandler {
                             {
                                 throw domain_error("Modulo by Zero");
                             }
-                        } 
+                        }
+                        
+                        else if(token != "-" && token != "+")
+                        {
+                            cout << token << endl;
+                            throw invalid_argument("Invalid Operator Placement");
+                        }
+                        /*
                         else
                         {
-                            throw invalid_argument("Invalid Operator Placement"); // starting or ending with an operatior
-                        }
+                            throw invalid_argument("Invalid Operator Placement2"); // starting or ending with an operatior
+                        }*/
 
                     } 
                     else 
                     {
                         if (!isNumber(token) && (token != "(" && token != ")"))
                         {
-                            cout << token << endl;
+                           // cout << token << endl;
                             throw invalid_argument("Invalid Characters"); // if what the error handler recivies is not a valid number or operator there is an error
 
                         }
@@ -151,7 +164,6 @@ class ErrorHandler {
                 //cout << "Validate" << endl;
                 if (!validParentheses(input))
                 {
-                    cout << "Throwing error" << endl;
                     throw invalid_argument("Paratheses error");
                 }
             }

@@ -10,6 +10,7 @@ public:
 
     vector<string> createToken(string input) 
     {
+    try{
         vector<string> tokens;
         string expression = "";
         bool isNumber = false;
@@ -44,14 +45,22 @@ public:
                     tokens.push_back(string(1, c));
                 }
             }
+            if (!isdigit(c) && !(operators.find(c) != string::npos))
+            {
+                throw invalid_argument("Invalid Character");
+            }
         }
 
         if (isNumber) 
         {
             tokens.push_back(to_string(num));
         }
-
         return tokens;
+    }
+        catch(const std::exception& e)
+            {
+                std::cerr<<e.what() << '\n';
+            } 
     }
 };
 /*
