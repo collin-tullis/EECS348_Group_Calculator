@@ -1,0 +1,8 @@
+Team Meeting 12.11
+WHEN: Wednesday, December 11th @ 6:00 pm
+PURPOSE: Eleventh team meeting, finalizing project
+ATTENDANCE: (virtually) Gavin Billinger, Adira Mongar, Collin Tullis, Matthew Eaglemen, Lydia Peng
+
+We all got together and put the finishing touches on the group project. 
+We reviewed implementation, completed our test cases, and wrote up our user manual. 
+With that all done, the Scrum Blasters have officially concluded the Big Ol’ Calculator project!
